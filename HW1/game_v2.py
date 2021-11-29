@@ -32,10 +32,10 @@ def score_game(random_predict) -> int:
     Returns an average number of iterations of random_predict.
     
     Args:
-        random_predict ([type]): [description]
+        random_predict (function): search a hidden number
 
     Returns:
-        int: [description]
+        int: the number on average tries
     """
     count_ls = [] # list to save the number of attempts
     np.random.seed(1) # fix the seed for reproducibility
