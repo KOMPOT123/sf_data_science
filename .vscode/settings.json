@@ -1,3 +1,4 @@
 {
-    "editor.maxTokenizationLineLength": 79
+    "editor.maxTokenizationLineLength": 79,
+    "jupyter.jupyterServerType": "local"
 }
